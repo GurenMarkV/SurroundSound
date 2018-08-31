@@ -1,0 +1,7 @@
+git add *
+git commit -m "Updating now"
+git push heroku master
+heroku logs --tail
+
+
+heroku local web
